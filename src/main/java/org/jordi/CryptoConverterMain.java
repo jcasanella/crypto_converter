@@ -13,7 +13,8 @@ public class CryptoConverterMain implements QuarkusApplication {
     @Override
     public int run(String... args) throws Exception {
         System.out.println("Hello ");
-        var test = tickerResource.getTicker("BTC");
+        var resp = tickerResource.getTicker("BTC");
+        System.out.println("Response: " + resp);
         return 0;
     }
 }

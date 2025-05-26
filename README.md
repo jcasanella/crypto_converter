@@ -61,7 +61,8 @@ GET https://cex.io/api/ticker/BTC/USD
   "priceChange": "41435.0",
   "priceChangePercentage": "59.47",
   "pair": "BTC:USD"
-}```
+}
+```
 
 ## 🧾 Field Descriptions
 
