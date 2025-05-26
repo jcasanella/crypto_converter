@@ -14,7 +14,7 @@ public class CryptoConverterMain implements QuarkusApplication {
     public int run(String... args) throws Exception {
         System.out.println("Hello ");
         var resp = tickerResource.getTicker("BTC");
-        System.out.println("Response: " + resp.toString());
+        System.out.println("Response: " + resp);
         return 0;
     }
 }

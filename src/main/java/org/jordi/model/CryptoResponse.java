@@ -18,7 +18,7 @@ public class CryptoResponse {
 
     @Override
     public String toString() {
-        return String.format(" { timestamp: %s, low: %s, hig: %s, last: %s, volume: %s, volume30d: %s, bid: %.6f, ask: %.6f, priceChange: %s, " +
+        return String.format(" { timestamp: %s, low: %s, high: %s, last: %s, volume: %s, volume30d: %s, bid: %.6f, ask: %.6f, priceChange: %s, " +
                         "priceChangePercentage: %s, pair: %s }",
                 timestamp, low, high, last, volume, volume30d, bid, ask, priceChange, priceChangePercentage, pair);
     }
